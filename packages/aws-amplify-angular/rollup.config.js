@@ -10,8 +10,8 @@ import json from 'rollup-plugin-json';
 export default {
   input: 'dist/index.js',
   output: {
-    name: 'aws-amplify-angular',
-    file: 'dist/bundles/aws-amplify-angular.umd.js',
+    name: 'aws-amplify-angular-xpou',
+    file: 'dist/bundles/aws-amplify-angular-xpou.umd.js',
     format: 'umd',
     globals: {
       'lodash': '_',

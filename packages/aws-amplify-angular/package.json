@@ -1,8 +1,8 @@
 {
-  "name": "@xpou/aws-amplify-angular",
-  "version": "3.1.1",
-  "description": "AWS Amplify Angular Components",
-  "main": "bundles/aws-amplify-angular.umd.js",
+  "name": "aws-amplify-angular-xpou",
+  "version": "3.2.0",
+  "description": "AWS Amplify Angular Components (light)",
+  "main": "bundles/aws-amplify-angular-xpou.umd.js",
   "module": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
@@ -11,7 +11,7 @@
     "test": "jest --maxWorkers 2",
     "transpile": "ngc",
     "package": "rollup -c rollup.config.js",
-    "minify": "uglifyjs dist/bundles/aws-amplify-angular.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/aws-amplify-angular.umd.min.js",
+    "minify": "uglifyjs dist/bundles/aws-amplify-angular-xpou.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/aws-amplify-angular-xpou.umd.min.js",
     "build": "npm run transpile && npm run package && npm run minify && npm run declarations",
     "declarations": "ngc --p ./declarations/"
   },
@@ -63,7 +63,8 @@
     "to-string-loader": "^1.1.5",
     "uglify-js": "^3.4.7",
     "zone": "^0.3.4",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "typescript": "3.2.2"
   },
   "dependencies": {
     "@aws-amplify/ui": "1.0.25",

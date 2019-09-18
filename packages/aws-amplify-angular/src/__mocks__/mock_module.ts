@@ -51,33 +51,6 @@ const authModule = {
   }
 };
 
-const interactionsModule = {
-  Interactions: {
-    onComplete: () => {
-      return new Promise((resolve, reject) => {
-        resolve(1);
-      });
-    },
-    send: () => {
-      return new Promise((resolve, reject) => {
-        resolve(1);
-      });
-    },
-  }
-}
-
-const storageModule = {
-  Storage: {
-    put: () => {
-      return new Promise((resolve, reject) => {
-        resolve(1);
-      })
-    }
-  }
-}
-
 export {
-  authModule,
-  interactionsModule,
-  storageModule
+  authModule
 };

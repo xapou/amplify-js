@@ -26,12 +26,6 @@ import { GreetingComponentIonic } from './components/authenticator/greeting-comp
 import { SignInComponentIonic } from './components/authenticator/sign-in-component/sign-in.component.ionic';
 import { SignUpComponentIonic } from './components/authenticator/sign-up-component/sign-up.component.ionic';
 import { RequireNewPasswordComponentIonic } from './components/authenticator/require-new-password-component/require-new-password.component.ionic';
-import { PhotoPickerIonicComponent } from './components/storage/photo-picker-component/photo-picker.component.ionic';
-import { S3AlbumComponentIonic } from './components/storage/s3-album-component/s3-album.component.ionic';
-import { S3ImageComponentIonic } from './components/storage/s3-image-component/s3-image.component.ionic';
-import { ChatbotComponentIonic } from './components/interactions/chatbot/chatbot.component.ionic';
-import { SumerianSceneComponentIonic } from './components/xr/sumerian-scene-component/sumerian-scene.component.ionic';
-import { SumerianSceneLoadingComponentIonic } from './components/xr/sumerian-scene-component/sumerian-scene-loading.component.ionic';
 // tslint:enable:max-line-length
 
 const components = [
@@ -42,13 +36,7 @@ const components = [
   GreetingComponentIonic,
   SignInComponentIonic,
   SignUpComponentIonic,
-  RequireNewPasswordComponentIonic,
-  PhotoPickerIonicComponent,
-  S3AlbumComponentIonic,
-  S3ImageComponentIonic,
-  ChatbotComponentIonic,
-  SumerianSceneComponentIonic,
-  SumerianSceneLoadingComponentIonic
+  RequireNewPasswordComponentIonic
 ];
 
 @NgModule({

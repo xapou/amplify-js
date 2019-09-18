@@ -31,7 +31,7 @@ const template = `
 
 @Component({
   selector: 'amplify-form',
-  template: template
+  template
 })
 export class FormComponent {
   @Input()

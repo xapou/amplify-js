@@ -24,8 +24,7 @@
     ]
   },
   "files": [
-    "index.ts",
-    "src/components/interactions/chatbot/aws-lex-audio.js"
+    "index.ts"
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true
