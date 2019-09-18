@@ -1,6 +1,6 @@
 {
-  "name": "@xapou/aws-amplify-angular",
-  "version": "3.1.0",
+  "name": "@xpou/aws-amplify-angular",
+  "version": "3.1.1",
   "description": "AWS Amplify Angular Components",
   "main": "bundles/aws-amplify-angular.umd.js",
   "module": "dist/index.js",
